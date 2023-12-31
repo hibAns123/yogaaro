@@ -79,6 +79,15 @@ ul{
     color: rgb(64, 63, 63);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.trainer-content>a>button{
+    background-color: brown;
+    color: aliceblue;
+    border: 0px;
+    padding: 5px 10px;
+    margin: 10px;
+
+}
 .trainer-content>button{
     background-color: brown;
     color: aliceblue;
@@ -87,6 +96,7 @@ ul{
     margin: 10px;
 
 }
+
 .trainer-image{
     flex: 1;
     justify-content: center;
@@ -290,6 +300,15 @@ iframe{
     margin-left: -30px;
     padding: 100px 0px 50px 50px;
 }
+.free>a>button{
+    color: white;
+    background-color: rgb(106, 44, 44);
+    border: 0px;
+    padding: 6px;
+}
+.free>a>button:hover{
+    background-color: beige;
+}
 #para{
     width: 500px;
     text-align: center;
@@ -426,7 +445,9 @@ button:hover{
 .ln{
     margin: 5px 10px;
 }
-
+#btn:hover{
+    background-color: brown;
+}
 
 @media screen and (min-width:470px) and ( max-width: 768px) {
     
