@@ -307,7 +307,7 @@ iframe{
     padding: 6px;
 }
 .free>a>button:hover{
-    background-color: beige;
+    background-color: rgb(235, 219, 202);
 }
 #para{
     width: 500px;
